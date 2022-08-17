@@ -132,15 +132,17 @@ code {
   width: 150px;
   background-color: darkblue;
   padding: 10px;
-  border: none;
+  border: black;
   outline: none;
   color: #eae3d2;
   cursor: pointer;
   box-shadow: black;
+  text-shadow: #282c34;
+  border-radius: 23px;
 }
 .sendBtn:hover {
   background-color: #282c34;
-  border-radius: 13px;
+  border-radius: 23px;
   box-shadow: black;
 }
 .message__recipient {
