@@ -130,16 +130,18 @@ code {
 }
 .sendBtn {
   width: 150px;
-  background-color: springgreen;
+  background-color: darkblue;
   padding: 10px;
   border: none;
   outline: none;
   color: #eae3d2;
   cursor: pointer;
+  box-shadow: black;
 }
 .sendBtn:hover {
   background-color: #282c34;
   border-radius: 13px;
+  box-shadow: black;
 }
 .message__recipient {
   background-color: #f5ccc2;
