@@ -14,8 +14,7 @@ const ChatPage = ({ socket }) => {
 
     useEffect(() => {
         // 👇️ scroll to bottom every time messages change
-        lastMessageRef.current?.scrollIntoView({ behavior: 'smooth' });
-    }, [messages]);
+        lastMessageRef.current?.scrollIntoView({ behavior: 'smooth' });},[messages]);
 
     useEffect(() => {
         socket.on('typingResponse', (data) => setTypingStatus(data));
